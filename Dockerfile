@@ -1,5 +1,5 @@
 FROM sonarqube:latest
-RUN cd /opt/sonarqube
+RUN cd /opt/sonarqube/extensions/plugins
 
 USER root
 RUN apt-get install wget
